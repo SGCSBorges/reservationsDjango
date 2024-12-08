@@ -2,7 +2,7 @@
 
 from django.urls import path
 
-from . import views
+from catalogue import views
 
 app_name='catalogue'
 
