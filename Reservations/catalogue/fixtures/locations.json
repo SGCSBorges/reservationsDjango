@@ -1,0 +1,572 @@
+[
+  {
+    "model": "catalogue.location",
+    "pk": 1,
+    "fields": {
+      "slug": "art-center",
+      "designation": "Art Center",
+      "address": "",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": null,
+      "phone": null
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 2,
+    "fields": {
+      "slug": "atrium",
+      "designation": "Atrium",
+      "address": "",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": null,
+      "phone": null
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 3,
+    "fields": {
+      "slug": "opera-house",
+      "designation": "Opera House",
+      "address": "",
+      "locality": [
+        "1040",
+        "Etterbeek"
+      ],
+      "website": null,
+      "phone": null
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 4,
+    "fields": {
+      "slug": "espace-delvaux-la-venerie",
+      "designation": "Espace Delvaux / La Vénerie",
+      "address": "3 rue Gratès",
+      "locality": [
+        "1170",
+        "Watermael-Boistfort"
+      ],
+      "website": "https://www.lavenerie.be",
+      "phone": "+32 (0)2/663.85.50"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 5,
+    "fields": {
+      "slug": "dexia-art-center",
+      "designation": "Dexia Art Center",
+      "address": "50 rue de l'Ecuyer",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": null,
+      "phone": null
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 6,
+    "fields": {
+      "slug": "la-samaritaine",
+      "designation": "La Samaritaine",
+      "address": "16 rue de la samaritaine",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": "http://www.lasamaritaine.be/",
+      "phone": null
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 7,
+    "fields": {
+      "slug": "espace-magh",
+      "designation": "Espace Magh",
+      "address": "17 rue du Poinçon",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": "http://www.espacemagh.be",
+      "phone": "+32 (0)2/274.05.10"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 8,
+    "fields": {
+      "slug": "bozar",
+      "designation": "BOZAR",
+      "address": "23 rue Ravenstein",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": "https://www.bozar.be",
+      "phone": "+32 (0)2/507.82.00"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 9,
+    "fields": {
+      "slug": "kaaitheater",
+      "designation": "Kaaitheater",
+      "address": "20 square Sainctelette",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": "https://www.kaaitheater.be",
+      "phone": "+32 (0)2/201.59.59"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 10,
+    "fields": {
+      "slug": "ancienne-belgique",
+      "designation": "Ancienne Belgique",
+      "address": "110 boulevard Anspach",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": "https://www.abconcerts.be",
+      "phone": "+32 (0)2/548.24.24"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 11,
+    "fields": {
+      "slug": "botanique",
+      "designation": "Botanique",
+      "address": "236 rue Royale",
+      "locality": [
+        "1210",
+        "Saint-Josse-ten-Noode"
+      ],
+      "website": "https://www.botanique.be",
+      "phone": "+32 (0)2/218.37.32"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 12,
+    "fields": {
+      "slug": "flagey",
+      "designation": "Flagey",
+      "address": "27 rue du Belvédère",
+      "locality": [
+        "1050",
+        "Ixelles"
+      ],
+      "website": "https://www.flagey.be",
+      "phone": "+32 (0)2/641.10.20"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 13,
+    "fields": {
+      "slug": "theatre-national",
+      "designation": "Théâtre National",
+      "address": "111 boulevard Emile Jacqmain",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": "https://www.theatrenational.be",
+      "phone": "+32 (0)2/203.53.03"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 14,
+    "fields": {
+      "slug": "theatre-royal-de-la-monnaie",
+      "designation": "Théâtre Royal de la Monnaie",
+      "address": "5 place de la Monnaie",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": "https://www.lamonnaie.be",
+      "phone": "+32 (0)2/229.12.11"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 15,
+    "fields": {
+      "slug": "cinema-galeries",
+      "designation": "Cinéma Galeries",
+      "address": "26 Galerie de la Reine",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": "https://www.galeries.be",
+      "phone": "+32 (0)2/514.74.98"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 16,
+    "fields": {
+      "slug": "cinema-nova",
+      "designation": "Cinéma Nova",
+      "address": "3 rue d'Arenberg",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": "https://www.nova-cinema.org",
+      "phone": "+32 (0)2/511.24.77"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 17,
+    "fields": {
+      "slug": "cinema-palace",
+      "designation": "Cinéma Palace",
+      "address": "85 boulevard Anspach",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": "https://www.cinema-palace.be",
+      "phone": "+32 (0)2/503.57.96"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 18,
+    "fields": {
+      "slug": "cinema-avenue",
+      "designation": "Cinéma Avenue",
+      "address": "10 avenue de la Couronne",
+      "locality": [
+        "1050",
+        "Ixelles"
+      ],
+      "website": "https://www.cinemaavenue.be",
+      "phone": "+32 (0)2/640.26.26"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 19,
+    "fields": {
+      "slug": "cinema-vendome",
+      "designation": "Cinéma Vendôme",
+      "address": "18 chaussée de Wavre",
+      "locality": [
+        "1050",
+        "Ixelles"
+      ],
+      "website": "https://www.cinemavendome.be",
+      "phone": "+32 (0)2/502.37.00"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 20,
+    "fields": {
+      "slug": "cinema-styx",
+      "designation": "Cinéma Styx",
+      "address": "43 rue de l'Arbre Bénit",
+      "locality": [
+        "1050",
+        "Ixelles"
+      ],
+      "website": "https://www.cinemastyx.be",
+      "phone": "+32 (0)2/640.26.26"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 21,
+    "fields": {
+      "slug": "cinema-arenberg",
+      "designation": "Cinéma Arenberg",
+      "address": "26 Galerie de la Reine",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": "https://www.cinema-arenberg.be",
+      "phone": "+32 (0)2/514.74.98"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 22,
+    "fields": {
+      "slug": "cinema-actor-studio",
+      "designation": "Cinéma Actor's Studio",
+      "address": "16 rue de la Fourche",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": "https://www.actorsstudio.be",
+      "phone": "+32 (0)2/514.74.98"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 23,
+    "fields": {
+      "slug": "cinema-royal",
+      "designation": "Cinéma Royal",
+      "address": "12 rue Royale",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": "https://www.cinemaroyal.be",
+      "phone": "+32 (0)2/514.74.98"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 24,
+    "fields": {
+      "slug": "cinema-eldorado",
+      "designation": "Cinéma Eldorado",
+      "address": "10 rue de l'Ecuyer",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": "https://www.cinemaeldorado.be",
+      "phone": "+32 (0)2/514.74.98"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 25,
+    "fields": {
+      "slug": "cinema-ugc-de-brouckere",
+      "designation": "Cinéma UGC De Brouckère",
+      "address": "38 place de Brouckère",
+      "locality": [
+        "1000",
+        "Bruxelles"
+      ],
+      "website": "https://www.ugc.be",
+      "phone": "+32 (0)2/218.37.32"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 26,
+    "fields": {
+      "slug": "cinema-ugc-toison-dor",
+      "designation": "Cinéma UGC Toison d'Or",
+      "address": "17 Galerie de la Toison d'Or",
+      "locality": [
+        "1050",
+        "Ixelles"
+      ],
+      "website": "https://www.ugc.be",
+      "phone": "+32 (0)2/218.37.32"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 27,
+    "fields": {
+      "slug": "cinema-ugc-guldenvlies",
+      "designation": "Cinéma UGC Guldenvlies",
+      "address": "17 Galerie de la Toison d'Or",
+      "locality": [
+        "1050",
+        "Ixelles"
+      ],
+      "website": "https://www.ugc.be",
+      "phone": "+32 (0)2/218.37.32"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 28,
+    "fields": {
+      "slug": "namur-theater",
+      "designation": "Namur Theater",
+      "address": "1 Place du Théâtre",
+      "locality": [
+        "5000",
+        "Namur"
+      ],
+      "website": "https://www.theatredenamur.be",
+      "phone": "+32 (0)81/226.026"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 29,
+    "fields": {
+      "slug": "antwerp-zoo",
+      "designation": "Antwerp Zoo",
+      "address": "Koningin Astridplein 26",
+      "locality": [
+        "2000",
+        "Antwerp"
+      ],
+      "website": "https://www.zooantwerpen.be",
+      "phone": "+32 (0)3/202.45.40"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 30,
+    "fields": {
+      "slug": "leuven-library",
+      "designation": "Leuven Library",
+      "address": "Ladeuzeplein 21",
+      "locality": [
+        "3000",
+        "Leuven"
+      ],
+      "website": "https://www.bib.kuleuven.be",
+      "phone": "+32 (0)16/32.40.10"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 31,
+    "fields": {
+      "slug": "charleroi-museum",
+      "designation": "Charleroi Museum",
+      "address": "Place Charles II",
+      "locality": [
+        "6000",
+        "Charleroi"
+      ],
+      "website": "https://www.charleroi-museum.be",
+      "phone": "+32 (0)71/86.11.34"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 32,
+    "fields": {
+      "slug": "mons-arena",
+      "designation": "Mons Arena",
+      "address": "Avenue Mélina Mercouri 9",
+      "locality": [
+        "7000",
+        "Mons"
+      ],
+      "website": "https://www.arena-mons.be",
+      "phone": "+32 (0)65/40.53.00"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 33,
+    "fields": {
+      "slug": "bruges-belfry",
+      "designation": "Bruges Belfry",
+      "address": "Markt 7",
+      "locality": [
+        "8000",
+        "Bruges"
+      ],
+      "website": "https://www.bruges.be/belfry",
+      "phone": "+32 (0)50/44.87.11"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 34,
+    "fields": {
+      "slug": "ghent-cathedral",
+      "designation": "Ghent Cathedral",
+      "address": "Sint-Baafsplein",
+      "locality": [
+        "9000",
+        "Ghent"
+      ],
+      "website": "https://www.sintbaafskathedraal.be",
+      "phone": "+32 (0)9/234.28.69"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 35,
+    "fields": {
+      "slug": "kortrijk-expo",
+      "designation": "Kortrijk Expo",
+      "address": "Doorniksesteenweg 216",
+      "locality": [
+        "8500",
+        "Kortrijk"
+      ],
+      "website": "https://www.kortrijkexpo.be",
+      "phone": "+32 (0)56/24.11.11"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 36,
+    "fields": {
+      "slug": "sint-truiden-abbey",
+      "designation": "Sint-Truiden Abbey",
+      "address": "Diesterstraat 1",
+      "locality": [
+        "3800",
+        "Sint-Truiden"
+      ],
+      "website": "https://www.sint-truiden.be/abbey",
+      "phone": "+32 (0)11/70.18.18"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 37,
+    "fields": {
+      "slug": "tongeren-museum",
+      "designation": "Tongeren Museum",
+      "address": "Kielenstraat 15",
+      "locality": [
+        "3700",
+        "Tongeren"
+      ],
+      "website": "https://www.tongeren.be/museum",
+      "phone": "+32 (0)12/80.00.70"
+    }
+  },
+  {
+    "model": "catalogue.location",
+    "pk": 38,
+    "fields": {
+      "slug": "tienen-museum",
+      "designation": "Tienen Museum",
+      "address": "Grote Markt 3",
+      "locality": [
+        "3300",
+        "Tienen"
+      ],
+      "website": "https://www.tienen.be/museum",
+      "phone": "+32 (0)16/80.56.20"
+    }
+  }
+]

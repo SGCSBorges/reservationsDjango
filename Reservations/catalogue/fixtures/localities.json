@@ -1,0 +1,130 @@
+[
+  {
+    "model": "catalogue.locality",
+    "pk": 1,
+    "fields": {
+      "postal_code": "1000",
+      "locality": "Bruxelles"
+    }
+  },
+  {
+    "model": "catalogue.locality",
+    "pk": 2,
+    "fields": {
+      "postal_code": "1040",
+      "locality": "Etterbeek"
+    }
+  },
+  {
+    "model": "catalogue.locality",
+    "pk": 3,
+    "fields": {
+      "postal_code": "1050",
+      "locality": "Ixelles"
+    }
+  },
+  {
+    "model": "catalogue.locality",
+    "pk": 4,
+    "fields": {
+      "postal_code": "1170",
+      "locality": "Watermael-Boistfort"
+    }
+  },
+  {
+    "model": "catalogue.locality",
+    "pk": 5,
+    "fields": {
+      "postal_code": "5000",
+      "locality": "Namur"
+    }
+  },
+  {
+    "model": "catalogue.locality",
+    "pk": 6,
+    "fields": {
+      "postal_code": "2000",
+      "locality": "Antwerp"
+    }
+  },
+  {
+    "model": "catalogue.locality",
+    "pk": 7,
+    "fields": {
+      "postal_code": "3000",
+      "locality": "Leuven"
+    }
+  },
+  {
+    "model": "catalogue.locality",
+    "pk": 8,
+    "fields": {
+      "postal_code": "6000",
+      "locality": "Charleroi"
+    }
+  },
+  {
+    "model": "catalogue.locality",
+    "pk": 9,
+    "fields": {
+      "postal_code": "7000",
+      "locality": "Mons"
+    }
+  },
+  {
+    "model": "catalogue.locality",
+    "pk": 10,
+    "fields": {
+      "postal_code": "8000",
+      "locality": "Bruges"
+    }
+  },
+  {
+    "model": "catalogue.locality",
+    "pk": 11,
+    "fields": {
+      "postal_code": "9000",
+      "locality": "Ghent"
+    }
+  },
+  {
+    "model": "catalogue.locality",
+    "pk": 12,
+    "fields": {
+      "postal_code": "8500",
+      "locality": "Kortrijk"
+    }
+  },
+  {
+    "model": "catalogue.locality",
+    "pk": 13,
+    "fields": {
+      "postal_code": "3800",
+      "locality": "Sint-Truiden"
+    }
+  },
+  {
+    "model": "catalogue.locality",
+    "pk": 14,
+    "fields": {
+      "postal_code": "3700",
+      "locality": "Tongeren"
+    }
+  },
+  {
+    "model": "catalogue.locality",
+    "pk": 15,
+    "fields": {
+      "postal_code": "3300",
+      "locality": "Tienen"
+    }
+  },
+  {
+    "model": "catalogue.locality",
+    "pk": 16,
+    "fields": {
+      "postal_code": "1210",
+      "locality": "Saint-Josse-ten-Noode"
+    }
+  }
+]

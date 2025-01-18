@@ -1,0 +1,1177 @@
+[
+  {
+    "model": "catalogue.show",
+    "pk": 1,
+    "fields": {
+      "slug": "ayiti",
+      "title": "Ayiti",
+      "description": "Un homme est bloqué à l'aéroport.\n Questionné par les douaniers, il doit alors justifier son identité, et surtout prouver qu'il est haïtien - Qu'est-ce qu'être haïtien ?",
+      "poster_url": "ayiti.jpg",
+      "duration": 90,
+      "created_in": 2010,
+      "location": [
+        "espace-delvaux-la-venerie",
+        "https://www.lavenerie.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:03.509Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 2,
+    "fields": {
+      "slug": "cible-mouvante",
+      "title": "Cible mouvante",
+      "description": "Dans ce « thriller d'anticipation », des adultes semblent alimenter et véhiculer une crainte féroce envers les enfants âgés entre 10 et 12 ans.",
+      "poster_url": "cible.jpg",
+      "duration": 90,
+      "created_in": 2012,
+      "location": [
+        "dexia-art-center",
+        null
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:15.554Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 3,
+    "fields": {
+      "slug": "ceci-nest-pas-un-chanteur-belge",
+      "title": "Ceci n'est pas un chanteur belge",
+      "description": "Non peut-être ?!\nEntre Magritte (pour le surréalisme comique) et Maigret (pour le réalisme mélancolique), ce dixième opus semalien propose quatorze nouvelles chansons mêlées à de petits textes humoristiques et à quelques fortes images poétiques.",
+      "poster_url": "ceci-nest-pas-un-chanteur-belge.jpg",
+      "duration": 90,
+      "created_in": 2014,
+      "location": null,
+      "bookable": false,
+      "created_at": "2025-01-07T17:41:15.585Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 4,
+    "fields": {
+      "slug": "manneke",
+      "title": "Manneke… !",
+      "description": "A tour de rôle, Pierre se joue de ses oncles, tantes, grands-parents et surtout de sa mère.",
+      "poster_url": "manneke.jpg",
+      "duration": 90,
+      "created_in": 2011,
+      "location": [
+        "la-samaritaine",
+        "http://www.lasamaritaine.be/"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 5,
+    "fields": {
+      "slug": "art-exhibition",
+      "title": "Art Exhibition",
+      "description": "An exhibition showcasing contemporary art.",
+      "poster_url": "art-exhibition.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "art-center",
+        null
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 6,
+    "fields": {
+      "slug": "modern-art",
+      "title": "Modern Art",
+      "description": "A display of modern art pieces.",
+      "poster_url": "modern-art.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "art-center",
+        null
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 7,
+    "fields": {
+      "slug": "atrium-concert",
+      "title": "Atrium Concert",
+      "description": "A live concert in the Atrium.",
+      "poster_url": "atrium-concert.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "atrium",
+        null
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 8,
+    "fields": {
+      "slug": "atrium-theater",
+      "title": "Atrium Theater",
+      "description": "A theatrical performance in the Atrium.",
+      "poster_url": "atrium-theater.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "atrium",
+        null
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 9,
+    "fields": {
+      "slug": "opera-performance",
+      "title": "Opera Performance",
+      "description": "A grand opera performance.",
+      "poster_url": "opera-performance.jpg",
+      "duration": 180,
+      "created_in": 2023,
+      "location": [
+        "opera-house",
+        null
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 10,
+    "fields": {
+      "slug": "opera-gala",
+      "title": "Opera Gala",
+      "description": "A gala event at the Opera House.",
+      "poster_url": "opera-gala.jpg",
+      "duration": 150,
+      "created_in": 2023,
+      "location": [
+        "opera-house",
+        null
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 11,
+    "fields": {
+      "slug": "delvaux-play",
+      "title": "Delvaux Play",
+      "description": "A play at Espace Delvaux.",
+      "poster_url": "delvaux-play.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "espace-delvaux-la-venerie",
+        "https://www.lavenerie.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 12,
+    "fields": {
+      "slug": "delvaux-music",
+      "title": "Delvaux Music",
+      "description": "A music event at Espace Delvaux.",
+      "poster_url": "delvaux-music.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "espace-delvaux-la-venerie",
+        "https://www.lavenerie.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 13,
+    "fields": {
+      "slug": "dexia-art-show",
+      "title": "Dexia Art Show",
+      "description": "An art show at Dexia Art Center.",
+      "poster_url": "dexia-art-show.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "dexia-art-center",
+        null
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 14,
+    "fields": {
+      "slug": "dexia-exhibition",
+      "title": "Dexia Exhibition",
+      "description": "An exhibition at Dexia Art Center.",
+      "poster_url": "dexia-exhibition.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "dexia-art-center",
+        null
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 15,
+    "fields": {
+      "slug": "samaritaine-play",
+      "title": "Samaritaine Play",
+      "description": "A play at La Samaritaine.",
+      "poster_url": "samaritaine-play.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "la-samaritaine",
+        "http://www.lasamaritaine.be/"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 16,
+    "fields": {
+      "slug": "samaritaine-music",
+      "title": "Samaritaine Music",
+      "description": "A music event at La Samaritaine.",
+      "poster_url": "samaritaine-music.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "la-samaritaine",
+        "http://www.lasamaritaine.be/"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 33,
+    "fields": {
+      "slug": "namur-play",
+      "title": "Namur Play",
+      "description": "A play at Namur Theater.",
+      "poster_url": "namur-play.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "namur-theater",
+        "https://www.theatredenamur.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 34,
+    "fields": {
+      "slug": "namur-concert",
+      "title": "Namur Concert",
+      "description": "A live concert at Namur Theater.",
+      "poster_url": "namur-concert.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "namur-theater",
+        "https://www.theatredenamur.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 35,
+    "fields": {
+      "slug": "antwerp-zoo-tour",
+      "title": "Antwerp Zoo Tour",
+      "description": "A guided tour of the Antwerp Zoo.",
+      "poster_url": "antwerp-zoo-tour.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "antwerp-zoo",
+        "https://www.zooantwerpen.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 36,
+    "fields": {
+      "slug": "antwerp-zoo-exhibit",
+      "title": "Antwerp Zoo Exhibit",
+      "description": "An exhibit showcasing the animals of Antwerp Zoo.",
+      "poster_url": "antwerp-zoo-exhibit.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "antwerp-zoo",
+        "https://www.zooantwerpen.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 37,
+    "fields": {
+      "slug": "leuven-library-reading",
+      "title": "Leuven Library Reading",
+      "description": "A reading event at Leuven Library.",
+      "poster_url": "leuven-library-reading.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "leuven-library",
+        "https://www.bib.kuleuven.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 38,
+    "fields": {
+      "slug": "leuven-library-exhibition",
+      "title": "Leuven Library Exhibition",
+      "description": "An exhibition at Leuven Library.",
+      "poster_url": "leuven-library-exhibition.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "leuven-library",
+        "https://www.bib.kuleuven.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 39,
+    "fields": {
+      "slug": "charleroi-museum-exhibit",
+      "title": "Charleroi Museum Exhibit",
+      "description": "An exhibit at Charleroi Museum.",
+      "poster_url": "charleroi-museum-exhibit.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "charleroi-museum",
+        "https://www.charleroi-museum.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 40,
+    "fields": {
+      "slug": "charleroi-museum-tour",
+      "title": "Charleroi Museum Tour",
+      "description": "A guided tour of Charleroi Museum.",
+      "poster_url": "charleroi-museum-tour.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "charleroi-museum",
+        "https://www.charleroi-museum.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 41,
+    "fields": {
+      "slug": "mons-arena-concert",
+      "title": "Mons Arena Concert",
+      "description": "A live concert at Mons Arena.",
+      "poster_url": "mons-arena-concert.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "mons-arena",
+        "https://www.arena-mons.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 42,
+    "fields": {
+      "slug": "mons-arena-festival",
+      "title": "Mons Arena Festival",
+      "description": "A music festival at Mons Arena.",
+      "poster_url": "mons-arena-festival.jpg",
+      "duration": 180,
+      "created_in": 2023,
+      "location": [
+        "mons-arena",
+        "https://www.arena-mons.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 43,
+    "fields": {
+      "slug": "bruges-belfry-tour",
+      "title": "Bruges Belfry Tour",
+      "description": "A guided tour of the Bruges Belfry.",
+      "poster_url": "bruges-belfry-tour.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "bruges-belfry",
+        "https://www.bruges.be/belfry"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 44,
+    "fields": {
+      "slug": "bruges-belfry-exhibit",
+      "title": "Bruges Belfry Exhibit",
+      "description": "An exhibit at the Bruges Belfry.",
+      "poster_url": "bruges-belfry-exhibit.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "bruges-belfry",
+        "https://www.bruges.be/belfry"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 45,
+    "fields": {
+      "slug": "ghent-cathedral-concert",
+      "title": "Ghent Cathedral Concert",
+      "description": "A concert at Ghent Cathedral.",
+      "poster_url": "ghent-cathedral-concert.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "ghent-cathedral",
+        "https://www.sintbaafskathedraal.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 46,
+    "fields": {
+      "slug": "ghent-cathedral-tour",
+      "title": "Ghent Cathedral Tour",
+      "description": "A guided tour of Ghent Cathedral.",
+      "poster_url": "ghent-cathedral-tour.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "ghent-cathedral",
+        "https://www.sintbaafskathedraal.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 47,
+    "fields": {
+      "slug": "kortrijk-expo-exhibit",
+      "title": "Kortrijk Expo Exhibit",
+      "description": "An exhibit at Kortrijk Expo.",
+      "poster_url": "kortrijk-expo-exhibit.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "kortrijk-expo",
+        "https://www.kortrijkexpo.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 48,
+    "fields": {
+      "slug": "kortrijk-expo-conference",
+      "title": "Kortrijk Expo Conference",
+      "description": "A conference at Kortrijk Expo.",
+      "poster_url": "kortrijk-expo-conference.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "kortrijk-expo",
+        "https://www.kortrijkexpo.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 49,
+    "fields": {
+      "slug": "sint-truiden-abbey-tour",
+      "title": "Sint-Truiden Abbey Tour",
+      "description": "A guided tour of Sint-Truiden Abbey.",
+      "poster_url": "sint-truiden-abbey-tour.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "sint-truiden-abbey",
+        "https://www.sint-truiden.be/abbey"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 50,
+    "fields": {
+      "slug": "sint-truiden-abbey-exhibit",
+      "title": "Sint-Truiden Abbey Exhibit",
+      "description": "An exhibit at Sint-Truiden Abbey.",
+      "poster_url": "sint-truiden-abbey-exhibit.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "sint-truiden-abbey",
+        "https://www.sint-truiden.be/abbey"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 51,
+    "fields": {
+      "slug": "tongeren-museum-exhibit",
+      "title": "Tongeren Museum Exhibit",
+      "description": "An exhibit at Tongeren Museum.",
+      "poster_url": "tongeren-museum-exhibit.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "tongeren-museum",
+        "https://www.tongeren.be/museum"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 52,
+    "fields": {
+      "slug": "tongeren-museum-tour",
+      "title": "Tongeren Museum Tour",
+      "description": "A guided tour of Tongeren Museum.",
+      "poster_url": "tongeren-museum-tour.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "tongeren-museum",
+        "https://www.tongeren.be/museum"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 53,
+    "fields": {
+      "slug": "tienen-museum-exhibit",
+      "title": "Tienen Museum Exhibit",
+      "description": "An exhibit at Tienen Museum.",
+      "poster_url": "tienen-museum-exhibit.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "tienen-museum",
+        "https://www.tienen.be/museum"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 54,
+    "fields": {
+      "slug": "tienen-museum-tour",
+      "title": "Tienen Museum Tour",
+      "description": "A guided tour of Tienen Museum.",
+      "poster_url": "tienen-museum-tour.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "tienen-museum",
+        "https://www.tienen.be/museum"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 55,
+    "fields": {
+      "slug": "cinema-galeries-film",
+      "title": "Cinema Galeries Film",
+      "description": "A film screening at Cinema Galeries.",
+      "poster_url": "cinema-galeries-film.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "cinema-galeries",
+        "https://www.galeries.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 56,
+    "fields": {
+      "slug": "cinema-galeries-documentary",
+      "title": "Cinema Galeries Documentary",
+      "description": "A documentary screening at Cinema Galeries.",
+      "poster_url": "cinema-galeries-documentary.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "cinema-galeries",
+        "https://www.galeries.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 57,
+    "fields": {
+      "slug": "cinema-nova-film",
+      "title": "Cinema Nova Film",
+      "description": "A film screening at Cinema Nova.",
+      "poster_url": "cinema-nova-film.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "cinema-nova",
+        "https://www.nova-cinema.org"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 58,
+    "fields": {
+      "slug": "cinema-nova-documentary",
+      "title": "Cinema Nova Documentary",
+      "description": "A documentary screening at Cinema Nova.",
+      "poster_url": "cinema-nova-documentary.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "cinema-nova",
+        "https://www.nova-cinema.org"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 59,
+    "fields": {
+      "slug": "cinema-palace-film",
+      "title": "Cinema Palace Film",
+      "description": "A film screening at Cinema Palace.",
+      "poster_url": "cinema-palace-film.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "cinema-palace",
+        "https://www.cinema-palace.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 60,
+    "fields": {
+      "slug": "cinema-palace-documentary",
+      "title": "Cinema Palace Documentary",
+      "description": "A documentary screening at Cinema Palace.",
+      "poster_url": "cinema-palace-documentary.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "cinema-palace",
+        "https://www.cinema-palace.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 61,
+    "fields": {
+      "slug": "cinema-avenue-film",
+      "title": "Cinema Avenue Film",
+      "description": "A film screening at Cinema Avenue.",
+      "poster_url": "cinema-avenue-film.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "cinema-avenue",
+        "https://www.cinemaavenue.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 62,
+    "fields": {
+      "slug": "cinema-avenue-documentary",
+      "title": "Cinema Avenue Documentary",
+      "description": "A documentary screening at Cinema Avenue.",
+      "poster_url": "cinema-avenue-documentary.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "cinema-avenue",
+        "https://www.cinemaavenue.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 63,
+    "fields": {
+      "slug": "cinema-vendome-film",
+      "title": "Cinema Vendôme Film",
+      "description": "A film screening at Cinema Vendôme.",
+      "poster_url": "cinema-vendome-film.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "cinema-vendome",
+        "https://www.cinemavendome.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 64,
+    "fields": {
+      "slug": "cinema-vendome-documentary",
+      "title": "Cinema Vendôme Documentary",
+      "description": "A documentary screening at Cinema Vendôme.",
+      "poster_url": "cinema-vendome-documentary.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "cinema-vendome",
+        "https://www.cinemavendome.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 65,
+    "fields": {
+      "slug": "cinema-styx-film",
+      "title": "Cinema Styx Film",
+      "description": "A film screening at Cinema Styx.",
+      "poster_url": "cinema-styx-film.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "cinema-styx",
+        "https://www.cinemastyx.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 66,
+    "fields": {
+      "slug": "cinema-styx-documentary",
+      "title": "Cinema Styx Documentary",
+      "description": "A documentary screening at Cinema Styx.",
+      "poster_url": "cinema-styx-documentary.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "cinema-styx",
+        "https://www.cinemastyx.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 67,
+    "fields": {
+      "slug": "cinema-arenberg-film",
+      "title": "Cinema Arenberg Film",
+      "description": "A film screening at Cinema Arenberg.",
+      "poster_url": "cinema-arenberg-film.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "cinema-arenberg",
+        "https://www.cinema-arenberg.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 68,
+    "fields": {
+      "slug": "cinema-arenberg-documentary",
+      "title": "Cinema Arenberg Documentary",
+      "description": "A documentary screening at Cinema Arenberg.",
+      "poster_url": "cinema-arenberg-documentary.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "cinema-arenberg",
+        "https://www.cinema-arenberg.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 69,
+    "fields": {
+      "slug": "cinema-actor-studio-film",
+      "title": "Cinema Actor's Studio Film",
+      "description": "A film screening at Cinema Actor's Studio.",
+      "poster_url": "cinema-actor-studio-film.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "cinema-actor-studio",
+        "https://www.actorsstudio.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 70,
+    "fields": {
+      "slug": "cinema-actor-studio-documentary",
+      "title": "Cinema Actor's Studio Documentary",
+      "description": "A documentary screening at Cinema Actor's Studio.",
+      "poster_url": "cinema-actor-studio-documentary.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "cinema-actor-studio",
+        "https://www.actorsstudio.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 71,
+    "fields": {
+      "slug": "cinema-eldorado-film",
+      "title": "Cinema Eldorado Film",
+      "description": "A film screening at Cinema Eldorado.",
+      "poster_url": "cinema-eldorado-film.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "cinema-eldorado",
+        "https://www.cinemaeldorado.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 72,
+    "fields": {
+      "slug": "cinema-eldorado-documentary",
+      "title": "Cinema Eldorado Documentary",
+      "description": "A documentary screening at Cinema Eldorado.",
+      "poster_url": "cinema-eldorado-documentary.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "cinema-eldorado",
+        "https://www.cinemaeldorado.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 73,
+    "fields": {
+      "slug": "cinema-ugc-de-brouckere-film",
+      "title": "Cinema UGC De Brouckère Film",
+      "description": "A film screening at Cinema UGC De Brouckère.",
+      "poster_url": "cinema-ugc-de-brouckere-film.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "cinema-ugc-de-brouckere",
+        "https://www.ugc.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 74,
+    "fields": {
+      "slug": "cinema-ugc-de-brouckere-documentary",
+      "title": "Cinema UGC De Brouckère Documentary",
+      "description": "A documentary screening at Cinema UGC De Brouckère.",
+      "poster_url": "cinema-ugc-de-brouckere-documentary.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "cinema-ugc-de-brouckere",
+        "https://www.ugc.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 75,
+    "fields": {
+      "slug": "cinema-ugc-toison-dor-film",
+      "title": "Cinema UGC Toison d'Or Film",
+      "description": "A film screening at Cinema UGC Toison d'Or.",
+      "poster_url": "cinema-ugc-toison-dor-film.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "cinema-ugc-toison-dor",
+        "https://www.ugc.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 76,
+    "fields": {
+      "slug": "cinema-ugc-toison-dor-documentary",
+      "title": "Cinema UGC Toison d'Or Documentary",
+      "description": "A documentary screening at Cinema UGC Toison d'Or.",
+      "poster_url": "cinema-ugc-toison-dor-documentary.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "cinema-ugc-toison-dor",
+        "https://www.ugc.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 77,
+    "fields": {
+      "slug": "cinema-ugc-guldenvlies-film",
+      "title": "Cinema UGC Guldenvlies Film",
+      "description": "A film screening at Cinema UGC Guldenvlies.",
+      "poster_url": "cinema-ugc-guldenvlies-film.jpg",
+      "duration": 120,
+      "created_in": 2023,
+      "location": [
+        "cinema-ugc-guldenvlies",
+        "https://www.ugc.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalogue.show",
+    "pk": 78,
+    "fields": {
+      "slug": "cinema-ugc-guldenvlies-documentary",
+      "title": "Cinema UGC Guldenvlies Documentary",
+      "description": "A documentary screening at Cinema UGC Guldenvlies.",
+      "poster_url": "cinema-ugc-guldenvlies-documentary.jpg",
+      "duration": 90,
+      "created_in": 2023,
+      "location": [
+        "cinema-ugc-guldenvlies",
+        "https://www.ugc.be"
+      ],
+      "bookable": true,
+      "created_at": "2025-01-07T17:41:40.894Z",
+      "updated_at": null
+    }
+  }
+]

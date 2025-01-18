@@ -38,7 +38,7 @@
       "firstname": "Anne Marie",
       "lastname": "Loop"
     }
-    },
+  },
   {
     "model": "catalogue.artist",
     "pk": 6,
@@ -46,15 +46,15 @@
       "firstname": "Pietro",
       "lastname": "Varasso"
     }
-    },
+  },
   {
     "model": "catalogue.artist",
     "pk": 7,
     "fields": {
       "firstname": "Laurent",
       "lastname": "Caron"
-  }
-    },
+    }
+  },
   {
     "model": "catalogue.artist",
     "pk": 8,
@@ -62,7 +62,7 @@
       "firstname": "Élena",
       "lastname": "Perez"
     }
-    },
+  },
   {
     "model": "catalogue.artist",
     "pk": 9,
@@ -70,15 +70,15 @@
       "firstname": "Guillaume",
       "lastname": "Alexandre"
     }
-    },
+  },
   {
     "model": "catalogue.artist",
     "pk": 10,
     "fields": {
       "firstname": "Claude",
       "lastname": "Semal"
-  }
-    },
+    }
+  },
   {
     "model": "catalogue.artist",
     "pk": 11,
@@ -86,7 +86,7 @@
       "firstname": "Laurence",
       "lastname": "Warin"
     }
-    },
+  },
   {
     "model": "catalogue.artist",
     "pk": 12,
@@ -94,13 +94,69 @@
       "firstname": "Pierre",
       "lastname": "Wayburn"
     }
-    },
+  },
   {
     "model": "catalogue.artist",
     "pk": 13,
     "fields": {
       "firstname": "Gwendoline",
       "lastname": "Gauthier"
+    }
+  },
+  {
+    "model": "catalogue.artist",
+    "pk": 14,
+    "fields": {
+      "firstname": "Isabelle",
+      "lastname": "Huppert"
+    }
+  },
+  {
+    "model": "catalogue.artist",
+    "pk": 15,
+    "fields": {
+      "firstname": "Jean",
+      "lastname": "Reno"
+    }
+  },
+  {
+    "model": "catalogue.artist",
+    "pk": 16,
+    "fields": {
+      "firstname": "Juliette",
+      "lastname": "Binoche"
+    }
+  },
+  {
+    "model": "catalogue.artist",
+    "pk": 17,
+    "fields": {
+      "firstname": "Marion",
+      "lastname": "Cotillard"
+    }
+  },
+  {
+    "model": "catalogue.artist",
+    "pk": 18,
+    "fields": {
+      "firstname": "Vincent",
+      "lastname": "Cassel"
+    }
+  },
+  {
+    "model": "catalogue.artist",
+    "pk": 19,
+    "fields": {
+      "firstname": "Audrey",
+      "lastname": "Tautou"
+    }
+  },
+  {
+    "model": "catalogue.artist",
+    "pk": 20,
+    "fields": {
+      "firstname": "Gérard",
+      "lastname": "Depardieu"
     }
   }
 ]
