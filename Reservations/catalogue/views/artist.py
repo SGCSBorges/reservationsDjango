@@ -1,4 +1,4 @@
-from django.shortcuts import redirect, render
+from django.shortcuts import get_object_or_404, redirect, render
 from django.http import Http404
 
 from catalogue.models import Artist
@@ -59,4 +59,16 @@ def edit(request, artist_id):
 		'form':form,
 		'artist':artist,
 		'title':title 
+	})
+
+def delete(request, artist_id):
+	
+	artist = get_object_or_404(Artist, id = artist_id)
+
+	if request.method == 'POST':
+		artist.delete()
+		return redirect('catalogue:artist_index')
+	
+	return render(request, 'artist/show.html', {
+		'artist':artist
 	})

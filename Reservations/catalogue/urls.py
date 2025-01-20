@@ -11,4 +11,5 @@ urlpatterns = [
     path('artist/<int:artist_id>', views.artist.show, name='artist_show'),
     path('artist/edit/<int:artist_id>', views.artist.edit, name='artist_edit'),
     path('artist/create', views.artist.create, name='artist_create'),
+    path('artist/delete/<int:artist_id>', views.artist.delete, name='artist_delete'),
 ]
