@@ -27,6 +27,20 @@ def show(request, artist_id):
 		'title':title 
 	})
 
+def create(request):
+	title = 'Créer un artiste'
+	
+	form = ArtistForm(request.POST or None)
+	
+	if request.method == 'POST' and form.is_valid():
+		form.save()
+		return redirect('catalogue:artist_index')
+	
+	return render(request, 'artist/create.html', {
+		'form':form,
+		'title':title 
+	})
+
 def edit(request, artist_id):
 	try:
 		artist = Artist.objects.get(id=artist_id)
