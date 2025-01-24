@@ -1,5 +1,8 @@
 from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
+from django.contrib.auth.models import User
 
+#Import the models here
 from .models import (
     UserMeta,
     Artist,
@@ -12,11 +15,12 @@ from .models import (
     ArtisteType,
     Representation,
     RepresentationReservation,
-    Review
+    Review,
+    RoleUser,
+    Role,
 )
 
 # Register your models here.
-admin.site.register(UserMeta)
 admin.site.register(Artist)
 admin.site.register(Locality)
 admin.site.register(Location)
@@ -28,3 +32,29 @@ admin.site.register(ArtisteType)
 admin.site.register(Representation)
 admin.site.register(RepresentationReservation)
 admin.site.register(Review)
+admin.site.register(RoleUser)
+admin.site.register(Role)
+
+#Customize the Admin interface
+
+# Define an inline admin descriptor for UserMeta model
+# which acts a bit like a singleton
+class UserMetaInline(admin.StackedInline):
+    model = UserMeta
+    can_delete = False
+    verbose_name_plural = 'user_meta'
+
+# Define a new User admin
+class UserAdmin(BaseUserAdmin):
+    inlines = (UserMetaInline,)
+
+     # Custom method to display user_meta information
+    def get_langue(self, instance):
+        return instance.usermeta.get_langue()
+    get_langue.short_description = 'Langue'
+    list_display = BaseUserAdmin.list_display + ('get_langue',)
+
+# Re-register UserAdmin
+admin.site.unregister(User)
+admin.site.register(User, UserAdmin)
+

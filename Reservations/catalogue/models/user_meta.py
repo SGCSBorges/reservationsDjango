@@ -8,6 +8,10 @@ class UserMeta(models.Model):
 
     def __str__(self):
         return self.user.first_name + " " + self.user.last_name
+    
+    def get_langue(self):
+        return self.langue
+    get_langue.short_description = 'Langue'
 
     class Meta:
         db_table = "user_meta"
