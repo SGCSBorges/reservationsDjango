@@ -8,16 +8,31 @@
 
 <body>
     <div class="container">
-        {% if messages %}
-        <ul class="messages">
-            {% for message in messages %}
-            <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
-            {% endfor %}
-        </ul>
-        {% endif %}
-        <div class="container">
-            {% block content %}{% endblock %}
-        </div>
+
+        <header>
+            <div style="float:right">
+                <p>Vous n'êtes pas connecté.</p>
+                <p><a href="{% url 'login' %}">Se connecter</a></p>
+            </div>
+        </header>
+
+        <main>
+            <div id="notification">
+                {% if messages %}
+                <ul class="messages">
+                    {% for message in messages %}
+                    <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+            <div class="container">
+                {% block content %}{% endblock %}
+            </div>
+        </main>
+
+        <footer>&copy; Projet Réservations - EPFC / ICC 2025</footer>
+    </div>
 </body>
 
 </html>
