@@ -11,3 +11,5 @@ class UserMeta(models.Model):
 
     class Meta:
         db_table = "user_meta"
+
+    
