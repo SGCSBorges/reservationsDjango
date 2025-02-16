@@ -43,6 +43,11 @@ def profile(request):
         "FR": "Français",
         "EN": "English",
         "NL": "Nederlands",
+        "ES": "Español",
+        "DE": "Deutsch",
+        "IT": "Italiano",
+        "PT": "Português",
+        "ZH": "中文",
     }
 
     return render(request, 'users/profile.html', {

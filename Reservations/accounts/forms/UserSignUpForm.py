@@ -11,6 +11,11 @@ class UserSignUpForm(UserCreationForm):
         FRENCH = "FR", "Français"
         ENGLISH = "EN", "English"
         DUTCH = "NL", "Nederlands"
+        SPANISH = "ES", "Español"
+        GERMAN = "DE", "Deutsch"
+        ITALIAN = "IT", "Italiano"
+        PORTUGUESE = "PT", "Português"
+        CHINESE = "ZH", "中文"
 
     #Définir les types de champs
     username = forms.CharField(max_length=30)
