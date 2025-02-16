@@ -1,23 +1,58 @@
 [
-    {
-      "model": "catalogue.type",
-      "pk": 1,
-      "fields": {
-        "type": "auteur"
-      }
-    },
-    {
-      "model": "catalogue.type",
-      "pk": 2,
-      "fields": {
-        "type": "scénographe"
-      }
-    },
-    {
-      "model": "catalogue.type",
-      "pk": 3,
-      "fields": {
-        "type": "comédien"
-      }
+  {
+    "model": "catalogue.type",
+    "pk": 1,
+    "fields": {
+      "type": "auteur"
     }
-  ]
+  },
+  {
+    "model": "catalogue.type",
+    "pk": 2,
+    "fields": {
+      "type": "scénographe"
+    }
+  },
+  {
+    "model": "catalogue.type",
+    "pk": 3,
+    "fields": {
+      "type": "comédien"
+    }
+  },
+  {
+    "model": "catalogue.type",
+    "pk": 4,
+    "fields": {
+      "type": "réalisateur"
+    }
+  },
+  {
+    "model": "catalogue.type",
+    "pk": 5,
+    "fields": {
+      "type": "producteur"
+    }
+  },
+  {
+    "model": "catalogue.type",
+    "pk": 6,
+    "fields": {
+      "type": "monteur"
+    }
+  },
+  {
+    "model": "catalogue.type",
+    "pk": 7,
+    "fields": {
+      "type": "scénariste"
+    }
+  },
+  {
+    "model": "catalogue.type",
+    "pk": 8,
+    "fields": {
+      "type": "directeur de la photographie"
+    }
+  }
+]
