@@ -5,9 +5,7 @@
     "fields": {
       "booking_date": "2025-01-11T03:21:46.371Z",
       "status": "en attente",
-      "user": [
-        "anna"
-      ]
+      "user": ["Jane"]
     }
   },
   {
@@ -16,9 +14,7 @@
     "fields": {
       "booking_date": "2025-01-11T03:26:39.767Z",
       "status": "payée",
-      "user": [
-        "admin"
-      ]
+      "user": ["John"]
     }
   },
   {
@@ -27,9 +23,7 @@
     "fields": {
       "booking_date": "2025-01-11T03:26:39.770Z",
       "status": "en attente",
-      "user": [
-        "anna"
-      ]
+      "user": ["Jane"]
     }
   },
   {
@@ -38,9 +32,7 @@
     "fields": {
       "booking_date": "2025-01-11T03:33:46.150Z",
       "status": "payée",
-      "user": [
-        "admin"
-      ]
+      "user": ["John"]
     }
   },
   {
@@ -49,9 +41,7 @@
     "fields": {
       "booking_date": "2025-01-11T03:33:46.154Z",
       "status": "en attente",
-      "user": [
-        "anna"
-      ]
+      "user": ["Jane"]
     }
   }
 ]

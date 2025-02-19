@@ -1,63 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
+  <head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+    <meta charset="utf-8" />
+    <title>
+      Projet réservations - {% block title %}Bienvenue{% endblock %}
+    </title>
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <title>Projet réservations - {% block title %}Bienvenue{% endblock %}</title>
-</head>
-
-<body>
+  <body>
     <div class="container">
-
-        <header>
-            <div style="float:right">
-                {% if request.user.is_authenticated %}
-                <p>Bonjour {{ request.user.username }}!</p>
-                <p><a href="{% url 'accounts:user_profile' %}">Mon profil</a></p>
-
-                <form action="{% url 'logout' %}" method="post">
-                    {% csrf_token %}
-                    <button type="submit">Se déconnecter</button>
-                </form>
-                {% else %}
-                <p>Vous n'êtes pas connecté.</p>
-                <p><a href="{% url 'login' %}">Se connecter</a></p>
-                <p><a href="{% url 'accounts:user_signup' %}">S'inscrire</a></p>
-                {% endif %}
-            </div>
-        </header>
-
+      <div class="top-bar">
         <nav>
-            <ul>
-                <li><a href="{% url 'home' %}">Accueil</a></li>
-                <li><a href="{% url 'catalogue:artist_index' %}">Nos artistes</a></li>
-                <li><a href="{% url 'catalogue:locality_index' %}">Localités</a></li>
-                <li><a href="{% url 'catalogue:price_index' %}">Prix</a></li>
-                {% if request.user.is_superuser %}
-                <li><a href="{% url 'admin:index' %}">Administration</a></li>
+          <ul>
+            <li><a href="{% url 'home' %}">Accueil</a></li>
+            <li>
+              <a href="{% url 'catalogue:artist_index' %}">Nos artistes</a>
+            </li>
+            <li>
+              <a href="{% url 'catalogue:locality_index' %}">Localités</a>
+            </li>
+            <li><a href="{% url 'catalogue:price_index' %}">Prix</a></li>
+            {% if request.user.is_superuser %}
+            <li><a href="{% url 'admin:index' %}">Administration</a></li>
 
-
-                {% endif %}
-            </ul>
+            {% endif %}
+          </ul>
         </nav>
 
-        <main>
-            <div id="notification">
-                {% if messages %}
-                <ul class="messages">
-                    {% for message in messages %}
-                    <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-            </div>
-            <div class="container">
-                {% block content %}{% endblock %}
-            </div>
-        </main>
+        <header>
+          <div class="header-right">
+            {% if request.user.is_authenticated %}
+            <p>Bonjour {{ request.user.username }}!</p>
+            <p><a href="{% url 'accounts:user_profile' %}">Mon profil</a></p>
 
-        <footer>&copy; Projet Réservations - EPFC / ICC 2025</footer>
+            <form action="{% url 'logout' %}" method="post">
+              {% csrf_token %}
+              <button type="submit">Se déconnecter</button>
+            </form>
+            {% else %}
+            <p>Vous n'êtes pas connecté.</p>
+            <p><a href="{% url 'login' %}">Se connecter</a></p>
+            <p><a href="{% url 'accounts:user_signup' %}">S'inscrire</a></p>
+            {% endif %}
+          </div>
+        </header>
+      </div>
+
+      <main>
+        <div id="notification">
+          {% if messages %}
+          <ul class="messages">
+            {% for message in messages %}
+            <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>
+              {{ message }}
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+        <div class="container">{% block content %}{% endblock %}</div>
+      </main>
+
+      <footer>&copy; Projet Réservations - ICC 2025</footer>
     </div>
-</body>
-
+  </body>
 </html>
