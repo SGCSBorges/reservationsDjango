@@ -18,6 +18,8 @@ from .models import (
     Review,
     RoleUser,
     Role,
+    Category,
+    ShowArtist,
 )
 
 # Register your models here.
@@ -34,6 +36,8 @@ admin.site.register(RepresentationReservation)
 admin.site.register(Review)
 admin.site.register(RoleUser)
 admin.site.register(Role)
+admin.site.register(Category)
+admin.site.register(ShowArtist)
 
 #Customize the Admin interface
 

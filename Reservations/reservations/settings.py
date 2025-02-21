@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-j=5oe71zh^z5yt7#nr#q)(^#ja(h=cbnn9#d0(z*&$bl9=f2xu
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "localhost").split(",")
 
 # Application definition
 
@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'catalogue',
     'accounts',
+    'api',
+    'feeds',
 ]
 
 MIDDLEWARE = [
@@ -127,6 +129,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# Add WhiteNoise for serving static files
+MIDDLEWARE.insert(1, 'whitenoise.middleware.WhiteNoiseMiddleware')
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field

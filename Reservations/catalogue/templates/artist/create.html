@@ -1,19 +1,131 @@
-{% extends 'layouts/base.html' %}
+{% extends 'layouts/base.html' %} {% block title %}Ajouter un artiste | {{
+block.super }}{% endblock %} {% block content %}
+<div class="artist-form-container">
+  <div class="page-header">
+    <h1>Ajouter un nouvel artiste</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'home' %}">Accueil</a></li>
+        <li class="breadcrumb-item">
+          <a href="{% url 'catalogue:artist_index' %}">Artistes</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">
+          Nouvel artiste
+        </li>
+      </ol>
+    </nav>
+  </div>
 
-{% block title %}Modifier un artiste{% endblock %}
+  <div class="card">
+    <div class="card-body">
+      <form method="post" enctype="multipart/form-data" class="artist-form">
+        {% csrf_token %} {% if form.non_field_errors %}
+        <div class="alert alert-danger">
+          {% for error in form.non_field_errors %} {{ error }} {% endfor %}
+        </div>
+        {% endif %}
 
-{% block content %}
-<h2>Ajouter un artiste</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="{{ form.firstname.id_for_label }}">Prénom</label>
+              {{ form.firstname }} {% if form.firstname.errors %}
+              <div class="invalid-feedback d-block">
+                {% for error in form.firstname.errors %} {{ error }} {% endfor
+                %}
+              </div>
+              {% endif %}
+            </div>
+          </div>
 
-<form action="{% url 'catalogue:artist_create' %}" method="post">
-    {% csrf_token %}
-    <input type="hidden" name="_method" value="PUT">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="{{ form.lastname.id_for_label }}">Nom</label>
+              {{ form.lastname }} {% if form.lastname.errors %}
+              <div class="invalid-feedback d-block">
+                {% for error in form.lastname.errors %} {{ error }} {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
 
-    {{ form }}
+        <div class="form-group">
+          <label for="{{ form.biography.id_for_label }}">Biographie</label>
+          {{ form.biography }} {% if form.biography.errors %}
+          <div class="invalid-feedback d-block">
+            {% for error in form.biography.errors %} {{ error }} {% endfor %}
+          </div>
+          {% endif %}
+        </div>
 
-    <button>Ajouter</button>
-    <a href="{% url 'catalogue:artist_index' %}">Annuler</a>
-</form>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="{{ form.birth_date.id_for_label }}"
+                >Date de naissance</label
+              >
+              {{ form.birth_date }} {% if form.birth_date.errors %}
+              <div class="invalid-feedback d-block">
+                {% for error in form.birth_date.errors %} {{ error }} {% endfor
+                %}
+              </div>
+              {% endif %}
+            </div>
+          </div>
 
-<nav><a href="{% url 'catalogue:artist_index' %}">Retour à l'index</a></nav>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="{{ form.roles.id_for_label }}">Rôles</label>
+              {{ form.roles }} {% if form.roles.errors %}
+              <div class="invalid-feedback d-block">
+                {% for error in form.roles.errors %} {{ error }} {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="{{ form.photo.id_for_label }}">Photo</label>
+          {{ form.photo }} {% if form.photo.errors %}
+          <div class="invalid-feedback d-block">
+            {% for error in form.photo.errors %} {{ error }} {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-save"></i> Enregistrer
+          </button>
+          <a
+            href="{% url 'catalogue:artist_index' %}"
+            class="btn btn-outline-secondary"
+          >
+            <i class="fas fa-times"></i> Annuler
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %} {% block javascript %}
+<script>
+  // Initialize date picker if needed
+  $(document).ready(function () {
+    $("#{{ form.birth_date.id_for_label }}").datepicker({
+      format: "dd/mm/yyyy",
+      autoclose: true,
+      todayHighlight: true,
+      language: "fr",
+    });
+
+    // Initialize select2 for multiple roles selection
+    $("#{{ form.roles.id_for_label }}").select2({
+      placeholder: "Sélectionnez un ou plusieurs rôles",
+      allowClear: true,
+    });
+  });
+</script>
 {% endblock %}

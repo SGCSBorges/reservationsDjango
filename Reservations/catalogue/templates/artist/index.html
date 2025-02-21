@@ -1,34 +1,99 @@
-{% extends 'layouts/base.html' %}
+{% extends 'layouts/base.html' %} {% block title %}Liste des artistes | {{
+block.super }}{% endblock %} {% block content %}
+<div class="artist-index">
+  <div class="page-header">
+    <h1>Liste des artistes</h1>
 
-{% block title %}Liste des artistes{% endblock %}
+    {% if user.is_staff %}
+    <div class="actions">
+      <a href="{% url 'catalogue:artist_create' %}" class="btn btn-primary">
+        <i class="icon-plus"></i> Ajouter un artiste
+      </a>
+    </div>
+    {% endif %}
+  </div>
 
-{% block content %}
-<h2>{{ title }}</h2>
+  <div class="toolbar">
+    <form method="get" class="search-form">
+      <input
+        type="text"
+        name="q"
+        value="{{ request.GET.q }}"
+        placeholder="Rechercher un artiste..."
+      />
+      <button type="submit" class="btn">
+        <i class="icon-search"></i> Rechercher
+      </button>
+    </form>
 
-<ul>
-    <li><a href="{% url 'catalogue:artist_create' %}">Ajouter</a></li>
-</ul>
+    <div class="sort-options">
+      Trier par:
+      <a
+        href="?sort=lastname"
+        class="{% if request.GET.sort == 'lastname' %}active{% endif %}"
+        >Nom</a
+      >
+      <a
+        href="?sort=firstname"
+        class="{% if request.GET.sort == 'firstname' %}active{% endif %}"
+        >Prénom</a
+      >
+    </div>
+  </div>
 
-<table>
-    <thead>
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for artist in artists %}
-        <tr>
+  <div class="artist-list">
+    {% if artists %}
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Rôle</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for artist in artists %}
+          <tr>
+            <td>
+              <a href="{% url 'catalogue:artist_show' artist.id %}">
+                {{ artist.lastname|upper }}
+              </a>
+            </td>
             <td>{{ artist.firstname }}</td>
             <td>
-                <a href="{% url 'catalogue:artist_show' artist.id %}">{{ artist.lastname }}</a>
+              {% for role in artist.roles.all %}
+              <span class="badge">{{ role.name }}</span>
+              {% endfor %}
             </td>
-        </tr>
-        {% empty %}
-        <tr>
-            <td colspan="2">Sorry, no artist in the database.</td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
+            <td class="actions">
+              <a
+                href="{% url 'catalogue:artist_show' artist.id %}"
+                class="btn btn-sm"
+              >
+                <i class="icon-eye"></i> Voir
+              </a>
+              {% if user.is_staff %}
+              <a
+                href="{% url 'catalogue:artist_edit' artist.id %}"
+                class="btn btn-sm btn-warning"
+              >
+                <i class="icon-edit"></i> Modifier
+              </a>
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    {% include 'partials/pagination.html' with page_obj=artists %} {% else %}
+    <div class="alert alert-info">
+      Aucun artiste trouvé dans la base de données.
+    </div>
+    {% endif %}
+  </div>
+</div>
 {% endblock %}
