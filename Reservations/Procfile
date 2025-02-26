@@ -1,1 +1,1 @@
-web: gunicorn reservationsDjango.wsgi
+web: gunicorn reservations.wsgi

@@ -18,5 +18,8 @@ urlpatterns = [
     path('locality/<int:locality_id>', views.locality.show, name='locality_show'),
     path('price/', views.price.index, name='price_index'),
     path('price/<int:price_id>', views.price.show, name='price_show'),
-    path('show/', views.show.index, name='show_index'),
+    path('show/', views.show, name='show_index'),
+    path('show/<int:show_id>', views.show.show, name='show_show'),
+    path('representation/', views.representation.index, name='representation_index'),
+    path('representation/<int:representation_id>', views.representation.show, name='representation_show'),
 ]
