@@ -1,0 +1,18 @@
+{% extends 'layouts/base.html' %} {% block title %}Résultats de recherche{%
+endblock %} {% block content %}
+<h1>Résultats de recherche</h1>
+
+{% if query %}
+<p>Vous avez recherché : <strong>{{ query }}</strong></p>
+{% endif %} {% if results %}
+<ul>
+  {% for show in results %}
+  <li>
+    <a href="{% url 'catalogue:show_show' show.id %}">{{ show.title }}</a>
+    <p>{{ show.description|truncatewords:20 }}</p>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>Aucun résultat trouvé.</p>
+{% endif %} {% endblock %}
