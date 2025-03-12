@@ -61,7 +61,11 @@
           </ul>
 
           {# SEARCH FORM #}
-          <form class="search-form" action="{% url 'search' %}" method="get">
+          <form
+            class="search-form"
+            action="{% url 'catalogue:search' %}"
+            method="get"
+          >
             <input type="text" name="q" placeholder="Rechercher..." />
             <button type="submit">🔍</button>
           </form>
