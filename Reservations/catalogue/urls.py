@@ -2,7 +2,7 @@
 
 from django.urls import path
 
-from catalogue.views import artist, type, locality, price, show, representation
+from catalogue.views import artist, type, locality, price, show, representation, search_view
 
 app_name='catalogue'
 
@@ -24,7 +24,9 @@ urlpatterns = [
 
     path('show/', show.index, name='show_index'),
     path('show/<int:show_id>', show.show, name='show_show'),
-    
+
     path('representation/', representation.index, name='representation_index'),
     path('representation/<int:representation_id>', representation.show, name='representation_show'),
+
+    path('search/', search_view.search_view, name='search')
 ]
