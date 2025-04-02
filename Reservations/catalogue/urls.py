@@ -2,7 +2,7 @@
 
 from django.urls import path
 
-from catalogue.views import artist, type, locality, price, show, representation, search_view
+from catalogue.views import artist, type, locality, price, show, representation, search_view, about, terms, contact, feed
 
 app_name='catalogue'
 
@@ -28,5 +28,13 @@ urlpatterns = [
     path('representation/', representation.index, name='representation_index'),
     path('representation/<int:representation_id>', representation.show, name='representation_show'),
 
-    path('search/', search_view.search_view, name='search')
+    path('search/', search_view.search_view, name='search'),
+
+    path('about/', about.about, name='about'),
+
+    path('terms/', terms.terms, name='terms'),
+
+    path('contact/', contact.contact, name='contact'),
+
+    path('rss/', feed.LatestArtistsFeed(), name='rss_feed'),
 ]
