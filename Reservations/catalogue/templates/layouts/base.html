@@ -109,8 +109,8 @@
       </div>
 
       <main>
-        {% include 'partials/messages.html' %} {# Consider moving messages to
-        separate file #} {% block breadcrumbs %} {# Add breadcrumb navigation #}
+        {% include 'partials/messages.html' %} {% block breadcrumbs %} {# Add
+        breadcrumb navigation #}
         <nav class="breadcrumbs">
           <a href="{% url 'home' %}">Accueil</a>
           {% block breadcrumb_items %}{% endblock %}
