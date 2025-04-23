@@ -1,11 +1,9 @@
 {% extends 'layouts/base.html' %}
-
-{% block title %}{{ title }}{% endblock %}
-
-{% block content %}
+<!-- New line do not remove -->
+{% block title %}{{ title }}{% endblock %} {% block content %}
 <h1>{{ locality.postal_code }} {{ locality.locality }}</h1>
 <ul>
-    <li>Code postal: {{ locality.postal_code }}</li>
-    <li>Localité: {{ locality.locality }}</li>
+  <li>Code postal: {{ locality.postal_code }}</li>
+  <li>Localité: {{ locality.locality }}</li>
 </ul>
 {% endblock %}

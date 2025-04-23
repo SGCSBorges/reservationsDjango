@@ -109,8 +109,7 @@
       </div>
 
       <main>
-        {% include 'partials/messages.html' %} {% block breadcrumbs %} {# Add
-        breadcrumb navigation #}
+        {% include 'partials/messages.html' %} {% block breadcrumbs %}
         <nav class="breadcrumbs">
           <a href="{% url 'home' %}">Accueil</a>
           {% block breadcrumb_items %}{% endblock %}
