@@ -46,18 +46,6 @@
             <li>
               <a href="{% url 'catalogue:locality_index' %}">Localités</a>
             </li>
-
-            {% if user.is_authenticated %}
-            <li>
-              <a href="{% url 'booking:reservations' %}">Mes Réservations</a>
-            </li>
-            {# NEW #} {% if user.is_affiliate %}
-            <li><a href="{% url 'api:documentation' %}">API</a></li>
-            {# NEW #} {% endif %} {% if user.is_press %}
-            <li><a href="{% url 'reviews:submit' %}">Soumettre Critique</a></li>
-            {# NEW #} {% endif %} {% if user.is_producer %}
-            <li><a href="{% url 'stats:dashboard' %}">Statistiques</a></li>
-            {# NEW #} {% endif %} {% endif %}
           </ul>
 
           {# SEARCH FORM #}
