@@ -170,3 +170,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Commit script
+#  This is a script that is used to automatically commit changes to the repository.
+#  It is not recommended to include this file in version control, as it may contain sensitive information.
+commit.ps1

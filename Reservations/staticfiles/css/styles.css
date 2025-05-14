@@ -1,0 +1,252 @@
+/* General styles for the entire page */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fef6f6; /* Light pastel */
+  padding: 10px 20px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: #ffd6e0; /* light pastel pink */
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header-right p,
+.header-right form {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+header p,
+header a,
+header button {
+  margin: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #6c5ce7; /* pastel purple */
+}
+
+header button {
+  background-color: #ffb3c1;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff3cd; /* pastel yellow */
+}
+
+header button:hover {
+  background-color: #ff92aa;
+}
+
+button {
+  background-color: #ffe0e0;
+  border: 1px solid #ffcccc;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffd2d2;
+}
+
+nav {
+  background-color: #d0e8f2; /* light pastel blue */
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #6c5ce7; /* pastel purple */
+  font-weight: bold;
+  display: inline;
+}
+
+nav ul li a:hover {
+  color: #a29bfe; /* pastel purple */
+}
+
+main {
+  background-color: #e2f0cb; /* light pastel green */
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 400px;
+}
+
+#notification {
+  margin-bottom: 20px;
+}
+
+.messages {
+  list-style-type: none;
+  padding: 0;
+}
+
+.messages li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff3cd; /* pastel yellow */
+  border: 1px solid #ffeeba;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #e0c3fc; /* pastel purple */
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.artist-index {
+  margin: 20px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sort-options a {
+  margin-left: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.sort-options a.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 7px;
+  background: #eee;
+  border-radius: 3px;
+  margin-right: 5px;
+  font-size: 0.8em;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f8f9fa;
+}
+
+.actions {
+  white-space: nowrap;
+}
+
+.artist-form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.artist-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.artist-form label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.artist-form .form-control {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.artist-form .form-actions {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.invalid-feedback {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.is-invalid {
+  border-color: #dc3545;
+}
+
+/* Breadcrumb styling */
+.breadcrumb {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  padding: 0 0.5rem;
+}

@@ -3,16 +3,16 @@
         "model": "auth.user",
         "pk": 1,
         "fields": {
-            "password": "pbkdf2_sha256$870000$Uydy7gb3CjJFM5jTsHj5sP$vGQKbXFEVylbhVcsWBl2rEIF9FFRy3D93AKroHLny+I=",
-            "last_login": "2024-11-10T06:15:36Z",
+            "password": "pbkdf2_sha256$870000$pkv6jX0HEaNfd69GXtCZtc$c8nMTE4KGnzG47g02N7o7SQUN6+8xusJx4dZbuiv7Ew=",
+            "last_login": "2025-01-20T02:36:32Z",
             "is_superuser": true,
             "username": "admin",
-            "first_name": "Bob",
-            "last_name": "Sull",
-            "email": "bob@sull.com",
+            "first_name": "Admin",
+            "last_name": "Istrator",
+            "email": "admin@admin.admin",
             "is_staff": true,
             "is_active": true,
-            "date_joined": "2024-11-10T06:13:17Z",
+            "date_joined": "2025-01-20T02:36:09Z",
             "groups": [
                 1
             ],
@@ -23,16 +23,36 @@
         "model": "auth.user",
         "pk": 2,
         "fields": {
-            "password": "pbkdf2_sha256$870000$tlpWHnnfJp3H8glhUHPoOA$8uuwaxBzOIQg4W9YMAgYEzoTc46ibkJFcAgAyFA/PPU=",
+            "password": "pbkdf2_sha256$870000$0VUXT8whmVUyxJ5DnLlj8D$TKJfNZ7RpJfUo349xudg8SkIxiv4UjcInS7/jLnMO1g=",
             "last_login": null,
             "is_superuser": false,
-            "username": "anna",
-            "first_name": "Anna",
-            "last_name": "Lyse",
-            "email": "anna.lyse@sull.com",
+            "username": "John",
+            "first_name": "John",
+            "last_name": "Doe",
+            "email": "john@doe.com",
             "is_staff": false,
             "is_active": true,
-            "date_joined": "2024-11-10T15:14:59Z",
+            "date_joined": "2025-01-24T16:57:53Z",
+            "groups": [
+                2
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$R4PymxAVa9hL5QiElurmTp$7P+FtJoCnSzDLiiIZymjXUgOcO+WkUkNsXhgAXw2u4A=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "Jane",
+            "first_name": "Jane",
+            "last_name": "Doe",
+            "email": "jane@doe.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2025-01-24T16:58:15Z",
             "groups": [
                 2
             ],

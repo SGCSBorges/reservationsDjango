@@ -1,4 +1,5 @@
 from django.db import models
+from .artist import *
 
 class ArtisteType(models.Model):
     artist = models.ForeignKey('Artist', on_delete=models.CASCADE, related_name='artiste_types')
@@ -9,3 +10,4 @@ class ArtisteType(models.Model):
     
     class Meta:
         db_table = 'artiste_type'
+        unique_together = ('artist', 'type')

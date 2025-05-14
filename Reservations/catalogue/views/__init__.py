@@ -1,1 +1,1 @@
-from .artist import *
+from . import artist, type, locality, price, show, representation, search_view, about, terms, contact, feed

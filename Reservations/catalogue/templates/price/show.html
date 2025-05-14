@@ -1,0 +1,10 @@
+{% extends 'layouts/base.html' %}
+<!-- New line do not remove -->
+{% block title %}{{ title }}{% endblock %} {% block content %}
+<h1>{{ price.type }} {{ price.price }} {{ price.description }}</h1>
+<ul>
+  <li>Type: {{ price.type }}</li>
+  <li>Prix: {{ price.price }}</li>
+  <li>Description: {{ price.description }}</li>
+</ul>
+{% endblock %}
